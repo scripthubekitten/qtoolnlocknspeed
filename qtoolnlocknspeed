@@ -1,3 +1,14 @@
+local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
+local Notify = AkaliNotif.Notify;
+Notify({
+Description = "discord.gg/productions";
+Title = "backup#6002 On Discord";
+Duration = 15;
+});
+getgenv().Speed = true
+getgenv().FakeMacro = true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo/nukermode/main/Kit%20tools.txt"))()
+
 getgenv().keytoclick = "Q"
 tool = Instance.new("Tool")
 tool.RequiresHandle = false
@@ -96,14 +107,3 @@ game.RunService.Stepped:Connect(function()
         end
         
     end)
-    
-  local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
-local Notify = AkaliNotif.Notify;
-Notify({
-Description = "discord.gg/productions";
-Title = "backup#6002 On Discord";
-Duration = 15;
-});
-getgenv().Speed = true
-getgenv().FakeMacro = true
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo/nukermode/main/Kit%20tools.txt"))()
