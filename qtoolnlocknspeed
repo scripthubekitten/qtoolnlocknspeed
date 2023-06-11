@@ -97,7 +97,7 @@ game.RunService.Stepped:Connect(function()
         
     end)
     
-    local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
+  local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
 local Notify = AkaliNotif.Notify;
 Notify({
 Description = "discord.gg/productions";
@@ -106,4 +106,4 @@ Duration = 15;
 });
 getgenv().Speed = true
 getgenv().FakeMacro = true
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo/nukermode/main/Kittools.txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo/nukermode/main/Kit%20tools.txt"))()
