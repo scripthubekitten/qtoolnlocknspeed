@@ -8,7 +8,6 @@ Duration = 15;
 getgenv().Speed = true
 getgenv().FakeMacro = true
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo/nukermode/main/Kit%20tools.txt"))()
-
 getgenv().keytoclick = "Q"
 tool = Instance.new("Tool")
 tool.RequiresHandle = false
